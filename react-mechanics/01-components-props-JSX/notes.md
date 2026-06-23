@@ -29,6 +29,12 @@
 - **JavaScript Logic in Components:**
 - Executing dynamic expressions, math operations, and array evaluations directly inside JSX layout structures using curly braces `{}`.
 
+- **Conditional Rendering Strategies:**
+- Understanding clean UI logic switching inside JSX using the short-circuiting `&&` operator (all-or-nothing rendering), ternary `? :` operators (either/or UI variations), and early `return` guard clauses to handle loading or error states.
+
+- **Component Refactoring & Extraction:**
+- Proficient in breaking down large, complex JSX layouts into small, isolated, single-responsibility sub-components to keep code readable and easy to test.
+
 ## Data Flow & Dynamic UI
 
 - **Props (Properties):**
