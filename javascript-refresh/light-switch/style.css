@@ -1,0 +1,78 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  overflow-wrap: break-word;
+}
+
+.container {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.bgr-color {
+  background-color: white;
+}
+
+.light-switch {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  padding: 50px;
+  align-items: center;
+}
+
+.btn {
+  padding: 6px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.displayed-text {
+  padding: 40px 0;
+  color: white;
+  font-size: 24px;
+}
+
+.text-color {
+  color: black;
+}
