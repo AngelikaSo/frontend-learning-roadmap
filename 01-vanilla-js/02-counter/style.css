@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  overflow-wrap: break-word;
+}
+
+.container {
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  padding: 50px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  border: 2px dashed rgb(42, 14, 113);
+  background-color: rgb(167, 157, 157);
+}
+
+.container-btn {
+  display: flex;
+  padding: 30px 0;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px 20px;
+}
