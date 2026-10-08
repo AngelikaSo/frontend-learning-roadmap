@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color: rgb(201, 218, 175);
+  color: rgb(63, 67, 43);
+  padding: 20px;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: rgb(63, 67, 43);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.form-1 input,
+.form-2 input {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
